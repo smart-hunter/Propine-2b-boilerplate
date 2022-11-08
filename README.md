@@ -20,6 +20,9 @@ To read ```data/transactions.csv``` and run the process
 ```
 npm run start
 ```
+
+![img.png](img.png)
+
 To read special csv file (e.g. ```data/custom.csv```) and run the process
 ```
 npm run start <filename>
