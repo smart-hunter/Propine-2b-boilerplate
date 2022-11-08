@@ -15,6 +15,20 @@ Through price.js, we can enter tokenSymbol as an argument and obtain usd price.
 
 Finally, in index.js, we calculate the total profile value.
 
+### Guide
+To read ```data/transactions.csv``` and run the process
+```
+npm run start
+```
+To read special csv file (e.g. ```data/custom.csv```) and run the process
+```
+npm run start <filename>
+```
+e.g.
+```
+npm run start custom
+```
+
 ## Question 1 - Programming
 _We're looking at your programming ability. It must not only work, it should be maintainable._
 
