@@ -1,3 +1,20 @@
+## Answer
+I organized the project with three components.
+
+The main component has index.js and can be entered by adding the csv file name argument to the command. 
+You can empty the file name and that will be "transactions" by default.
+
+Next, readCSV.js and price.js were created.
+
+readCSV.js has a function of reading csv data to return whole data and a function of calculating and returning the balance of tokens.
+You can call getCSVContents function of readCSV.js in index.js and calculate the balance of tokens, but this means that the amount of computation is doubled.
+So I added a second function to make the computation smaller in readCSV.js
+getTokenBalanceFromCSV function returns balance of tokens.
+
+Through price.js, we can enter tokenSymbol as an argument and obtain usd price.
+
+Finally, in index.js, we calculate the total profile value.
+
 ## Question 1 - Programming
 _We're looking at your programming ability. It must not only work, it should be maintainable._
 
