@@ -20,8 +20,30 @@ To read ```data/transactions.csv``` and run the process
 ```
 npm run start
 ```
+or 
+```
+npm run start transactions
+```
 
-![img.png](img.png)
+You can see this now.
+```
+
+> 2b-boilerplate@1.0.0 start
+> node index.js "transactions"
+
+Run script ...
+balanceOfTokens:  {
+  BTC: 39851.199060999104,
+  ETH: 30572.309748000236,
+  XRP: 29560.412992000474
+}
+BTC 18521.19
+ETH 1328.58
+XRP 0.4036
+End script...
+Profile Value:  778721319.4042677
+
+```
 
 To read special csv file (e.g. ```data/custom.csv```) and run the process
 ```
